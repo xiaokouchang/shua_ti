@@ -250,7 +250,8 @@
 //	while (scanf("%d", &n) == 1 && n)
 //	{
 //		s = 0;
-//		for (int i = 0; i < n; i++) {
+//		for (int i = 0; i < n; i++) 
+//		{
 //			scanf("%d", &x);
 //			s += x;
 //			if (x < min) min = x;
@@ -314,12 +315,58 @@
 //}
 
 
-//#include<stdio.h>
+//不知道数组元素个数时,读取数组
+//第一种方法
+//#include <stdio.h>
 //int main()
 //{
-//	return 0;
+//    int arr[100] = { 0 };
+//    int count = 0;
+//    int num = 0;
+//    char c = 0;
+//    while (1)
+//    {
+//        if (scanf("%d%c", &num, &c) != 2) 
+//        {
+//            break;
+//        }
+//        arr[count++] = num;
+//        // 检查是否到达换行符
+//        if (c == '\n')
+//        {
+//            //将数组进行处理;
+//            //sort(arr,count);
+//            count = 0;
+//        }
+//    }
+//    return 0;
 //}
 
+
+//第二种方法
+//#include <stdio.h>
+//int main() 
+//{
+//    int arr[100] = { 0 };
+//    int count = 0;
+//    int num;
+//    while (1) 
+//    {
+//        if (scanf("%d", &num) != 1)
+//        {
+//            break;
+//        }
+//        arr[count++] = num;
+//        // 检查是否到达换行符
+//        if (getchar() == '\n') 
+//        {
+//            //将数组进行处理;
+//            //sort(arr,count);
+//            count = 0;
+//        }
+//    }
+//    return 0;
+//}
 
 //#include<stdio.h>
 //int main()
