@@ -39,10 +39,26 @@
 //{
 //	int a = 10;
 //	int b = 20;
-//	a = a ^ b;
-//	b = a ^ b;//a^b^b
-//	a = a ^ b;//a^b^a
-//	printf("a = %d b = %d\n", a, b);
+//	while (scanf("%d %d", &a, &b) == 2)
+//	{
+//		a = a ^ b;
+//		b = a ^ b;
+//		a = a ^ b;
+//	}
+//	printf("%d %d", a, b);
+//	return 0;
+//}
+//
+
+//#include <stdio.h>
+//int main()
+//{
+//	int a = 0;
+//	int b = 0;
+//	while (scanf("%d %d", &a, &b) == 2)
+//	{
+//		printf("%d %d\n", b, a);
+//	}
 //	return 0;
 //}
 
@@ -368,10 +384,66 @@
 //    return 0;
 //}
 
+
+//求两个数的最大公因数和最小公倍数之和
 //#include<stdio.h>
 //int main()
 //{
+//	long long m = 0, n = 0;
+//	long long i = 0, b = 0, j = 0;
+//	scanf("%lld %lld", &m, &n);
+//	b = m * n;
+//	if (m < n)
+//	{
+//		m = m + n;
+//		n = m - n;
+//		m = m - n;
+//	}
+//	求m和n的最大公因数
+//	while (n != 0)
+//	{
+//		i = m % n;
+//		m = n;
+//		n = i;
+//	}
+//	printf("%d\n", m);
+//	求m和n的最小公倍数
+//	j = b / m;
+//	printf("%lld\n", m + j);
 //	return 0;
+//}
+
+
+//更相减损术
+//#include <stdio.h>
+//int main() 
+//{
+//    int num1 = 0; 
+//    int num2 = 0;
+//    scanf("%d %d", &num1, &num2);
+//    //后面计算时会改变num1和num2的值,所以要放在前面
+//    int product = num1 * num2;
+//    //使用更相减损术求最大公因数
+//    while (num1 != num2) 
+//    {
+//        if (num1 > num2) 
+//        {
+//            num1 = num1 - num2;
+//        }
+//        else 
+//        {
+//            num2 = num2 - num1;
+//        }
+//    }
+//    //此时num1和num2相等,即为最大公因数
+//    int gcd = num1;
+//    printf("%d\n", num1);
+//    //计算最小公倍数
+//    int lcm = product / gcd;
+//    //计算最大公因数和最小公倍数之和
+//    int sum = gcd + lcm;
+//    printf("%d\n", sum);
+//    return 0;
 //}
 
 
