@@ -448,340 +448,73 @@
 //}
 
 
+//函数
+//求字符串长度是在统计'\0'之前的字符
+//指针-指针
 //#include<stdio.h>
+//#include<assert.h>
+//int my_strlen(const char* arr)
+//{
+//	assert(arr != NULL);
+//	const char* s = arr;
+//	while (*s != '\0')
+//	{
+//		s++;
+//	}
+//	return s - arr;
+//}
 //int main()
 //{
+//	char arr[] = "abcdef";
+//	int ret = my_strlen(arr);
+//	printf("%d\n", ret);
 //	return 0;
 //}
 
 
+//计数器
 //#include<stdio.h>
+//#include<assert.h>
+//int my_strlen(char* arr)
+//{
+//	assert(arr != NULL);
+//	int count = 0;
+//	char* s = arr;
+//	while (*s != '\0')
+//	{
+//		s++;
+//		count++;
+//	}
+//	return count;
+//}
 //int main()
 //{
+//	char arr[] = "abcdef";
+//	int ret = my_strlen(arr);
+//	printf("%d\n", ret);
 //	return 0;
 //}
 
 
+//递归
 //#include<stdio.h>
+//#include<assert.h>
+//int my_strlen(char* arr)
+//{
+//	assert(arr != NULL);
+//	if (*arr != '\0')
+//	{
+//		return 1 + my_strlen(1 + arr);
+//	}
+//	else
+//	{
+//		return 0;
+//	}
+//}
 //int main()
 //{
+//	char arr[] = "abcdef";
+//	int ret = my_strlen(arr);
+//	printf("%d\n", ret);
 //	return 0;
 //}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-//#include<stdio.h>
-//int main()
-//{
-//	return 0;
-//}
-
-
-
