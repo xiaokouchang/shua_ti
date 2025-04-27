@@ -131,3 +131,56 @@
 //	printf("%d\n", ret);
 //	return 0;
 //}
+
+
+//求1 + 2 + 3 + … + 100
+//方法1
+//逐个相加
+//#include<stdio.h>
+//int main()
+//{
+//	int sum = 0;
+//	int i = 0;
+//	for (i = 1; i <= 100; i++)
+//	{
+//		sum += i;
+//	}
+//	printf("%d\n", sum);
+//	return 0;
+//}
+
+
+//方法2
+//100+(99+1)+(98+2)+....+(49+51)+50
+//#include<stdio.h>
+//int main()
+//{
+//	int num1 = 1;
+//	int sum = 150;
+//	int num2 = 99;
+//	while (num1 <= 49 && num2 >= 51)
+//	{
+//		sum = sum + num1 + num2;
+//		num1++;
+//		num2--;
+//	}
+//	printf("%d\n", sum);
+//	return 0;
+//}
+
+
+//计算1*2*3*4*5
+//#include<stdio.h>
+//int main()
+//{
+//	int i = 0;
+//	int sum = 1;
+//	for (i = 1; i <= 5; i++)
+//	{
+//		sum *= i;
+//	}
+//	printf("%d\n", sum);
+//	return 0;
+//}
+
+
